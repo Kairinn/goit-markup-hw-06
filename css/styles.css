@@ -816,3 +816,13 @@ address {
   border: 1px solid #4d5ae5;
   border-radius: 4px;
 }
+.modal-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
