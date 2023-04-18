@@ -801,6 +801,7 @@ address {
 }
 
 .modal-form {
+  padding: 72px 24px 24px 24px;
 }
 
 .modal-input {
@@ -810,6 +811,15 @@ address {
   border-radius: 4px;
   outline: transparent;
   margin-bottom: 25px;
+  padding-left: 38px;
+}
+
+.modal-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-input:focus {
