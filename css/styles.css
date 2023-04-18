@@ -855,6 +855,7 @@ address {
   left: 5px;
   top: 50%;
   transform: translateY(-50%);
+  fill: #2e2f42;
 }
 
 .modal-input:focus + .modal-icon {
