@@ -828,6 +828,7 @@ address {
   border-radius: 4px;
 }
 .modal-btn {
+  display: block;
   width: 169px;
   height: 56px;
   padding: 16px 32px;
@@ -836,6 +837,7 @@ address {
   border-radius: 4px;
   align-self: center;
   color: #ffffff;
+  margin: 0 auto;
 }
 
 .modal-label {
