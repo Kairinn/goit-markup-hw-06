@@ -611,10 +611,6 @@ address {
 
 .footer-form-all {
   display: flex;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .footer-form-title {
