@@ -603,6 +603,103 @@ address {
   margin-bottom: 16px;
 }
 
+.footer-form {
+  width: 453px;
+  height: 80px;
+  padding-left: 80px;
+}
+
+.footer-form-all {
+  display: flex;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-form-title {
+  display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.container-input {
+  display: flex;
+}
+
+.footer-subscribe-input {
+  margin-right: 24px;
+  background-color: transparent;
+  color: #ffffff;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  width: 264px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-right: 24px;
+}
+
+.footer-subscribe-input:focus {
+  outline: none;
+}
+
+.footer-subscribe-input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.input:focus {
+  border-color: #4d5ae5;
+}
+
+.footer-subscribe-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  fill: #ffffff;
+  padding: 9px 24px;
+  border: none;
+}
+
+.footer-subscribe-icon {
+  margin-left: 16px;
+}
+
+.footer-subscribe-btn {
+  display: flex;
+  min-width: 165px;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+}
+
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+  background-color: #31d0aa;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* Hero Portfolio */
 .hero-portfolio {
   padding-bottom: 120px;
@@ -905,10 +1002,21 @@ address {
 }
 
 .check-icon {
-  fill: #ffffff;
-  border: 1.25px solid #2e2f42;
-  border-radius: 2px;
-  margin-right: 8px;
+}
+
+.checkbox-span {
   width: 16px;
   height: 16px;
+  border: 1px solid #2e2f42;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  margin-right: 8px;
+}
+.checkbox-input:checked + .form-label > .checkbox-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
 }

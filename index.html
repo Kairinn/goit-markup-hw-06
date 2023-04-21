@@ -441,8 +441,33 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-form-all">
+          <form class="footer-form">
+            <p class="footer-form-title">Subscribe</p>
+            <div class="container-input">
+              <input
+                class="footer-subscribe-input"
+                type="email"
+                name="user-email"
+                placeholder="E-mail"
+                required
+              />
+
+              <button class="footer-subscribe-btn btn" type="submit">
+                Subscribe
+                <svg class="footer-subscribe-icon" width="24" height="24">
+                  <use href="./images/modal-close.svg#icon-subscribe"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
+
+    <!--Modal-->
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
@@ -508,13 +533,13 @@
           </label>
 
           <div class="form-check-group">
+            <input
+              class="checkbox-input visually-hidden"
+              type="checkbox"
+              id="checkbox-icon"
+              name="checkbox"
+            />
             <label for="checkbox-icon" class="form-label check-label">
-              <input
-                class="checkbox-input visually-hidden"
-                type="checkbox"
-                id="checkbox-icon"
-                name="checkbox"
-              />
               <span class="checkbox-span">
                 <svg class="check-icon" width="8" height="10">
                   <use href="./images/checkbox-icon.svg#icon-checkbox"></use>
