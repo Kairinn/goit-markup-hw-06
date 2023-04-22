@@ -669,6 +669,7 @@ address {
   fill: #ffffff;
   padding: 9px 24px;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-subscribe-icon {
@@ -689,7 +690,6 @@ address {
 .footer-subscribe-btn:hover,
 .footer-subscribe-btn:focus {
   background-color: #31d0aa;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Hero Portfolio */
@@ -756,6 +756,7 @@ address {
 
 .portfolio-link {
   display: block;
+  transition: box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-link:hover,
@@ -788,7 +789,6 @@ address {
 .portfolio-link:hover .portfolio-overlay {
   display: block;
   transform: translate(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-link:focus .portfolio-overlay {
@@ -857,7 +857,8 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close:hover,
@@ -941,6 +942,11 @@ address {
   color: #8e8f99;
   margin-bottom: 8px;
   display: block;
+}
+
+.title-modal-label-input {
+  display: block;
+  margin-bottom: 4px;
 }
 
 .text-input:focus {
